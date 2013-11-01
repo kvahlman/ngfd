@@ -211,7 +211,6 @@ mce_sink_stop (NSinkInterface *iface, NRequest *request)
     g_assert (data != NULL);
 
     if (data->pattern) {
-        toggle_pattern (data->pattern, FALSE);
         g_free (data->pattern);
         data->pattern = NULL;
     }
