@@ -21,7 +21,7 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(check)
-BuildRequires:  pkgconfig(mce)
+BuildRequires:  pkgconfig(mce) >= 1.12.6
 BuildRequires:  pkgconfig(profile)
 BuildRequires:  pkgconfig(libcanberra)
 BuildRequires:  doxygen
